@@ -395,9 +395,9 @@ Most endpoints require authentication using a JWT token. Include the token in th
 
 ### Prerequisites
 
-- Node.js (v14 or later)
-- npm (usually comes with Node.js)
-- MongoDB (v4.4 or later)
+- Node.js
+- npm
+- MongoDB
 
 ### Steps
 
