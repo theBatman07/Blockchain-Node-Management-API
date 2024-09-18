@@ -404,29 +404,27 @@ Most endpoints require authentication using a JWT token. Include the token in th
 1. Clone the repository
   
   ```bash
-  git clone https://github.com/theBatman07/Blockchain-Node-Management-API.git 
-  cd Blockchain-Node-Management-API
+    git clone https://github.com/theBatman07/Blockchain-Node-Management-API.git 
+    cd Blockchain-Node-Management-API
   ```
   
 2. Install dependencies
   
   ```bash
-  npm install
+    npm install
   ```
   
 3. Set up environment variables
   Create a `.env` file in the root directory with the following content:
   
   ```bash
-  PORT=5000 
-  MONGO_URI="" 
-  JWT_SECRET=your_jwt_secret_here
+    PORT=5000 
+    MONGO_URI="" 
+    JWT_SECRET=your_jwt_secret_here
   ```
-  
-  `
-  
+
   Replace `your_jwt_secret_here` with a secure random string.
-  
+
   Or convert `.env.txt` to `.env`
   
 4. Start MongoDB
@@ -435,7 +433,7 @@ Most endpoints require authentication using a JWT token. Include the token in th
 5. Run the application
   
   ```bash
-  npm run dev
+    npm run dev
   ```
   
   The API should now be running on `http://localhost:5000`.
